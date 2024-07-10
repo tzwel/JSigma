@@ -12,4 +12,5 @@ As a obvious fun-fact: JSigma is linted by itself.
 
 ## How to use?
 
-You better not
+You better not. I'm serious. Use anything else.
+
