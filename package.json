@@ -3,11 +3,11 @@
     "glob": "^11.0.0"
   },
   "name": "jsigma",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A barebones javascript code formatter and linter",
   "main": "index.js",
   "bin": {
-    "jsigma": "./bin/index.js"
+    "jsigma": "bin/index.js"
   },
   "devDependencies": {},
   "scripts": {
