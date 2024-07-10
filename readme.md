@@ -1,4 +1,4 @@
-# <img width="30" src="./repo-files/sigma.jpg" /> JSigma
+# <img width="30" src="https://raw.githubusercontent.com/tzwel/JSigma/main/repo-files/sigma.jpg" /> JSigma
 
 A barebones javascript code formatter and linter
 
