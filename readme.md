@@ -14,3 +14,13 @@ As a obvious fun-fact: JSigma is linted by itself.
 
 You better not. I'm serious. Use anything else.
 
+But if you really want to, install it globally by running:
+```
+npm i jsigma -g
+```
+
+Then in your project directory just run `jsigma`
+
+To ignore lines, place a comment `//JSigma ignore below` above the offending line.
+
+Now run `npm uninstall jsigma -g`. This is heavily WIP and not ready to use by *you*.
