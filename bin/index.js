@@ -11,8 +11,7 @@ const { indentation } = require('../autofixes/indentation.js')
 const { semicolons } = require('../autofixes/semicolons.js')
 const { forbidden } = require('../warners/forbidden.js')
 
-
-const jsfiles = globSync(`${process.cwd()}/**.js`, { ignore: 'node_modules/**' })
+const jsfiles = globSync(`${process.cwd()}/**/*.js`, { ignore: `${process.cwd().replaceAll('\\','/')}/node_modules/**`, windowsPathsNoEscape: true })
 
 jsfiles.forEach(filePath => {
 	console.log(`Linting ${filePath}`)
@@ -45,4 +44,4 @@ jsfiles.forEach(filePath => {
 	fs.writeFileSync(filePath, code)
 })
 
-console.log('JSigma: done');
+console.log('JSigma: done')
